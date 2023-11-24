@@ -15,6 +15,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
+
 import com.example.expensetracerapi.entity.User;
 import com.example.expensetracerapi.security.CustomUserDetailsService;
 import com.example.expensetracerapi.security.JwtRequestFilter;
@@ -65,7 +66,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 		// TODO Auto-generated method stub
 		return super.authenticationManager();
 	}
-	
 //	@Override
 //	protected void configure(AuthenticationManagerBuilder auth) throws Exception{
 //		InMemoryUserDetailsManager userDeatilsManager = new InMemoryUserDetailsManager();
